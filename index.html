@@ -5,177 +5,468 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Ana Glidden</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+	<title>Ana Glidden</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Ana Glidden</a></h1>
-						<nav id="nav">
+<a href="#page-wrapper" id="back-to-top" class="icon solid fa-arrow-up"></a>
+
+<script>
+	const backToTop = document.getElementById("back-to-top");
+
+	window.addEventListener("scroll", function () {
+		if (window.scrollY > 400) {
+			backToTop.classList.add("show");
+		} else {
+			backToTop.classList.remove("show");
+		}
+	});
+</script>
+
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Ana Glidden</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
 							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="education.html">Education</a></li>
-<!-- 										<li><a href="research.html">Research</a></li>
-											<li><a href="outeach.html">Outreach</a></li>
-											<li><a href="justforfun.html">Just for fun</a></li>
-											<li><a href="cv.html">CV</a></li> -->
-											<li><a href="contactme.html">Contact Me</a></li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="education.html">Education</a></li>
+								<!-- <li><a href="sciencebackground.html">Science</a></li> -->
+								<li><a href="researchpapers.html">Research</a></li>
+								<li><a href="outreach.html">Outreach</a></li>
+								<li><a href="justforfun.html">Just for fun</a></li>
+								<li><a href="cv.html">CV</a></li>
+								<li><a href="contactme.html">Contact Me</a></li>
 							</ul>
-						</nav>
-					</header>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Dr. Ana Glidden</h2>
-							<p>Postdoctoral researcher at MIT<br />
-							Exploring the atmospheres of distant worlds<br />
-							<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
-							<!-- <ul class="actions special">
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Dr. Ana Glidden</h2>
+				<p>Postdoctoral researcher at MIT<br />
+					Exploring the atmospheres of distant worlds<br />
+					<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
+					<!-- <ul class="actions special">
 								<li><a href="#" class="button primary">Learn More</a></li>
 							</ul> -->
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Research Interests</h2>
-								<p>Through both theory and observations, I study the atmospheres of planets orbiting other stars to better understand their potential habitability and formation history.</p>
-							</header>
-							<!-- <ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul> -->
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Observations of Exoplanet Atmospheres with JWST</h2>
-								<p>Are there other worlds like Earth?</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Understanding Host Stars to Better to Understand Planets</h2>
-								<p>How can we learn more about planets by studying their host stars?</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Evaluating Novel Biosignature Gases</h2>
-								<p>Is there life elsewhere in the Universe and how can we best find it?</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic04.jpg" alt="" /></div><div class="content">
-								<h2>Using Atmospheric Clues to Reveal Planetary Origins</h2>
-								<p>How do planets form and evolve?<br />
-								How common or rare is the Solar System and its planets?</p>
-							</div>
-						</section>
-					</section>
-
-				<!--  Three -->
-					<!-- <section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section> --> 
-
-				<!-- CTA --> 
-					<!-- <section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section> -->
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">aglidden@mit.edu</span></a></li>
-							<li><a href="https://orcid.org/0000-0002-5322-2315" target="_blank">
-							<img src="images/orcid-icon.png" alt="ORCID" style="width:24px; height:24px; border-radius:50%;"></a></li>
-						</ul>
-						
-						<ul class="copyright">
-							<li>Email: <a href="mailto:aglidden@mit.edu">aglidden@mit.edu</a></li>
-							
-                            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
 			</div>
+			<a href="#one" class="more scrolly">Learn More</a>
+		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- One -->
+		<section id="one" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Research Interests</h2>
+					<p style="font-size: 1.25em;">I study the atmospheres of planets orbiting other stars, using
+						observations and models to understand how these distant worlds form and whether they might be
+						habitable. I am affiliated with the <a href="https://eaps.mit.edu/">MIT Department of Earth,
+							Atmospheric &
+							Planetary Sciences</a> and the
+						<a href="https://www.space.mit.edu/">MIT Kavli Institute for Astrophysics & Space
+							Research</a>.
+					</p>
+				</header>
+			</div>
+		</section>
 
-	</body>
+		<!-- Two -->
+		<section id="two" class="wrapper alt style2">
+			<section class="spotlight">
+				<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Observations of Exoplanet Atmospheres with JWST</h2>
+					<p style="margin-top: -10px;">
+						<strong style="color: #21b2a6;">Are there other worlds like Earth?</strong>
+						I use the James Webb Space Telescope (JWST) to study the atmospheres of planets orbiting stars
+						other
+						than the Sun. Through these observations, I can determine the molecules that make up their
+						atmospheres, such as carbon dioxide, water, and methane.
+					</p>
+
+					<ul class="actions stacked special">
+						<li><a href="https://doi.org/10.3847/2041-8213/adf62e" class="button primary" target="_blank">
+								TRAPPIST-1 <span style="text-transform: lowercase;">e</span> Atmosphere Study
+							</a></li>
+
+						<li><a href="https://doi.org/10.3847/1538-3881/ad9688" class="button primary" target="_blank">
+								WASP-17 <span style="text-transform: lowercase;">b</span> with JWST NIRISS/SOSS
+							</a></li>
+
+						<li><a href="https://doi.org/10.3847/2041-8213/acfc3b" class="button primary" target="_blank">
+								Quartz Clouds in WASP-17 <span style="text-transform: lowercase;">b</span>
+							</a></li>
+					</ul>
+
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Understanding Host Stars to Better Understand Planets</h2>
+					<p style="margin-top: -10px;">
+						<strong style="color: #21b2a6;">How can we learn more about planets by studying their host
+							stars?</strong>
+						We see planets through the light of their host star. I develop models of cool stars to
+						understand their spectra and activity. This is critical for interpreting observations as it
+						allows us to distinguish signals from the planet with those from the star.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://doi.org/10.3847/2041-8213/ae3137" class="button primary" target="_blank">M
+								Dwarf Modeling
+								Paper</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Evaluating Novel Biosignature Gases</h2>
+					<p style="margin-top: -10px;">
+						<strong style="color: #21b2a6;">Is there life elsewhere in the Universe and how can we best find
+							it?</strong>
+						Some gases in a planet's atmosphere could be evidence of biological activity. I explore which
+						atmospheric molecules might serve as reliable biosignature gases and how future telescopes might
+						detect them on distant worlds.
+					</p>
+
+					<ul class="actions stacked special">
+						<li><a href="https://doi.org/10.3847/1538-4357/ac625f" class="button primary">Aeriel Biospheres
+								Paper</a>
+						</li>
+
+						<li><a href="https://doi.org/10.3390/life13122325" class="button primary"
+								target="_blank">Isotopologue Study</a>
+						</li>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic04.jpg" alt="" /></div>
+				<div class="content">
+					<h2>Using Atmospheric Clues to Reveal Planetary Origins</h2>
+					<p style="margin-top: -10px;">
+						<strong style="color: #21b2a6;">How do planets form and evolve?</strong>
+						The contents of a planet's atmosphere can preserve clues about how and where it formed. By
+						measuring atmospheric composition, we can look back in time to learn about the processes that
+						build planetary systems and assess how common or rare our own Solar System may be.
+					</p>
+
+					<ul class="actions stacked special">
+						<li><a href="#" class="button primary">Stay tuned!</a></li>
+					</ul>
+
+				</div>
+			</section>
+		</section>
+
+
+
+
+		<!--  Three -->
+		<section id="three" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2>My Research in the News</h2>
+					<p>Our JWST observations of habitable-zone, rocky planet
+						<a href="https://science.nasa.gov/missions/webb/nasa-webb-looks-at-earth-sized-habitable-zone-exoplanet-trappist-1-e/"
+							target="_blank">TRAPPIST-1 e</a> have received widespread media
+						coverage.
+					</p>
+				</header>
+
+				<ul class="features">
+
+					<!-- New York Times -->
+					<li class="icon">
+						<img src="images/logos/nyt.jpg" alt="The New York Times"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px;">
+						<a href="https://www.nytimes.com/2025/09/08/science/trappist-1e-star-planet-nitrogen.html"
+							target="_blank">
+							<h3>The New York Times</h3>
+							<p>A Distant Planet May Have a Nitrogen Atmosphere — and Maybe Life</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">September 8, 2025</p>
+						</a>
+					</li>
+
+
+					<!-- Scientific American -->
+					<li class="icon">
+						<img src="images/logos/sciam.png" alt="Scientific American"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.scientificamerican.com/article/jwst-sees-hints-of-an-atmosphere-on-a-potentially-habitable-exoplanet/"
+							target="_blank">
+							<h3>Scientific American</h3>
+							<p>Hints of Atmosphere on Earth-Sized Exoplanet Raise Hopes for Life</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Jonathan O'Callaghan, September 9, 2025</p>
+						</a>
+					</li>
+
+					<!-- NASA -->
+					<!-- <li class="icon">
+						<img src="images/logos/nasa.jpg" alt="NASA"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://science.nasa.gov/missions/webb/nasa-webb-looks-at-earth-sized-habitable-zone-exoplanet-trappist-1-e/"
+							target="_blank">
+							<h3>NASA</h3>
+							<p>NASA Webb Looks at Earth-Sized, Habitable-Zone Exoplanet TRAPPIST-1 e</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">NASA Webb Mission Team, September 8, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- SETI Live -->
+					<li class="icon">
+						<img src="images/logos/setilive.jpg" alt="SETI Live"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.seti.org/events/trappist-1-e-revealed/" target="_blank">
+							<h3>SETI Live</h3>
+							<p>Live Interview: "TRAPPIST-1 e Revealed: Peering Inside an Exoplanet’s Atmosphere"</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">SETI Institute, November 6, 2025</p>
+						</a>
+					</li>
+
+					<!-- MIT News -->
+					<!-- <li class="icon">
+						<img src="images/logos/mitv2.png" alt="MIT"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://news.mit.edu/2025/study-finds-habitable-zone-planet-unlikely-have-venus-or-mars-like-atmosphere-0908"
+							target="_blank">
+							<h3>MIT News</h3>
+							<p>Study finds habitable-zone planet unlikely to have Venus- or Mars-like atmosphere</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Paige Colley, September 8, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- Sky & Telescope -->
+					<li class="icon">
+						<img src="images/logos/sat.jpg" alt="Sky & Telescope"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://skyandtelescope.org/astronomy-news/webbs-first-look-at-trappist-1e-hints-at-a-titan-like-atmosphere/"
+							target="_blank">
+							<h3>Sky & Telescope</h3>
+							<p>Webb’s First Look at TRAPPIST-1e Hints at a Titan-like Atmosphere</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Arielle Frommer, December 11, 2025</p>
+						</a>
+					</li>
+
+					<!-- SETI Institute News -->
+					<li class="icon">
+						<img src="images/logos/seti.jpg" alt="SETI Institute"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.seti.org/news/trappist-1-e-revealed-peering-inside-an-exoplanet-s-atmosphere/"
+							target="_blank">
+							<h3>SETI Institute</h3>
+							<p>TRAPPIST-1 e Revealed: Peering Inside an Exoplanet's Atmosphere</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">SETI Institute, November 14, 2025</p>
+						</a>
+					</li>
+
+					<!-- AAS Nova -->
+					<li class="icon">
+						<img src="images/logos/aasnova.jpg" alt="AAS Nova"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://aasnova.org/2025/12/26/selections-from-2025-jwst-searches-for-an-atmosphere-on-trappist-1e/"
+							target="_blank">
+							<h3>AAS Nova</h3>
+							<p>Selections from 2025: JWST Searches for an Atmosphere on TRAPPIST-1e</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Kerry Hensley, December 26, 2025</p>
+						</a>
+					</li>
+
+
+					<!-- University of Arizona News -->
+					<!-- <li class="icon">
+						<img src="images/logos/uofaz.png" alt="University of Arizona"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://news.arizona.edu/news/new-look-trappist-1e-earth-sized-habitable-zone-exoplanet"
+							target="_blank">
+							<h3>University of Arizona News</h3>
+							<p>A new look at TRAPPIST-1e, an Earth-sized, habitable-zone exoplanet</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Daniel Stolte, December 4, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- Space.com -->
+					<!-- <li class="icon">
+						<img src="images/logos/space.jpg" alt="Space.com"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.space.com/astronomy/exoplanets/does-the-nearby-exoplanet-trappist-1e-support-life-new-james-webb-space-telescope-data-could-help-us-find-out"
+							target="_blank">
+							<h3>Space.com</h3>
+							<p>Does TRAPPIST-1e Support Life? New JWST Data Could Help Us Find Out</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Robert Lea, September 8, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- Universe Today -->
+					<!-- <li class="icon">
+						<img src="images/logos/universetoday.jpeg" alt="Universe Today"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px;">
+						<a href="https://www.universetoday.com/articles/new-results-from-the-jwst-suggest-that-trappist-1e-could-have-a-methane-atmosphere"
+							target="_blank">
+							<h3>Universe Today</h3>
+							<p>New JWST Results Suggest TRAPPIST-1e Might Have a Methane Atmosphere</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Matthew Williams, December 10, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- NPR -->
+					<!-- <li class="icon">
+						<img src="images/logos/npr.png" alt="NPR"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px;">
+						<a href="https://www.npr.org/2025/12/12/nx-s1-5641133/science-space-life-alien-planet"
+							target="_blank">
+							<h3>NPR</h3>
+							<p>Could There Be Life on a Planet 40 Light-Years Away? Scientists Are Getting Closer to an
+								Answer</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">December 12, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- NRC (Dutch) -->
+					<li class="icon">
+						<img src="images/logos/nrc.png" alt="NRC"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.nrc.nl/nieuws/2025/11/27/het-uur-van-de-waarheid-voor-de-planeet-die-op-de-aarde-zou-lijken-heeft-trappist-1e-een-atmosfeer-a4912707"
+							target="_blank">
+							<h3>NRC</h3>
+							<p>Heeft TRAPPIST-1e een atmosfeer? Het uur van de waarheid voor de planeet die op de aarde
+								zou lijken</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">November 27, 2025</p>
+						</a>
+					</li>
+
+					<!-- CNN -->
+					<li class="icon">
+						<img src="images/logos/cnn.png" alt="CNN"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.cnn.com/2025/09/18/science/exoplanet-possibly-habitable" target="_blank">
+							<h3>CNN</h3>
+							<p>Earth-Like Exoplanet Could Be Habitable, and Astronomers May Know Soon</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">By Jacopo Prisco, September 18, 2025</p>
+						</a>
+					</li>
+
+					<!-- New Scientist -->
+					<!-- <li class="icon">
+						<img src="images/logos/newscientist.png" alt="New Scientist"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://www.newscientist.com/article/2495349-exoplanet-40-light-years-from-earth-may-have-right-conditions-for-life/"
+							target="_blank">
+							<h3>New Scientist</h3>
+							<p>Exoplanet 40 Light-Years from Earth May Have the Right Conditions for Life</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">Matthew Sparkes, September 8, 2025</p>
+						</a>
+					</li> -->
+
+					<!-- University of St Andrews
+					<li class="icon">
+						<img src="images/logos/standrews.png" alt="University of St Andrews"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://news.st-andrews.ac.uk/archive/james-webb-space-telescopes-first-look-for-an-atmosphere-on-habitable-zone-exoplanet/"
+							target="_blank">
+							<h3>University of St Andrews</h3>
+							<p>James Webb Space Telescope's First Look for an Atmosphere on Habitable-Zone Exoplanet</p>
+							<p style="font-size: 0.8em; opacity: 0.7;">September 8, 2025</p>
+						</a>
+					</li> -->
+
+
+					<!-- NASA -->
+					<!-- <li class="icon">
+						<img src="images/logos/nasa.jpg" alt="NASA"
+							style="width: 64px; height: 64px; float: left; margin-right: 15px; object-fit: contain;">
+						<a href="https://science.nasa.gov/missions/webb/webb-detects-tiny-quartz-crystals-in-the-clouds-of-a-hot-gas-giant/"
+							target="_blank">
+							<h3>NASA</h3>
+							<p>Webb Detects Tiny Quartz Crystals in the Clouds of a Hot Gas Giant</p>
+							 <p style="font-size: 0.8em; opacity: 0.7;">NASA Webb Mission Team, September 8, 2025</p> 
+					</a>
+					</li> -->
+				</ul>
+			</div>
+		</section>
+
+		<section id="cta" class="wrapper style4">
+			<div class="inner">
+				<header>
+					<h2>Get in Touch</h2>
+					<p>
+						Please reach out if you are interested in collaborations, media inquiries,
+						or learning more about my research.
+					</p>
+				</header>
+				<ul class="actions stacked">
+					<li><a href="contactme.html" class="button fit primary"
+							style="display: flex; align-items: center; justify-content: center; min-height: 50px;">Contact
+							Me</a></li>
+					<li><a href="cv/Glidden_CV_March_2026.pdf" class="button fit">Download CV</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+
+
+				<li><a href="mailto:aglidden@mit.edu" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+				<li><a href="https://github.com/ana-glidden" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+				<!-- <li><a href="https://bsky.app/profile/ana-glidden.bsky.social"
+						class="icon brands style2 fa-bluesky"><span class="label"></span></a></li> -->
+				<li><a href="https://bsky.app/profile/ana-glidden.bsky.social" target="_blank"
+						style="text-decoration: none;">
+						<img src="images/bluesky.png" alt="BlueSky"
+							style="width:24px; height:24px; border-radius:50%;"></a></li>
+				<li><a href="https://www.linkedin.com/in/ana-glidden-718b77a3/" class="icon brands fa-linkedin"><span
+							class="label">LinkedIn</span></a></li>
+				<li><a href="https://orcid.org/0000-0002-5322-2315" target="_blank" style="text-decoration: none;">
+						<img src="images/orcid-icon.png" alt="ORCID"
+							style="width:24px; height:24px; border-radius:50%;"></a></li>
+			</ul>
+
+			<ul class="copyright">
+				<li>&copy; Ana Glidden</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
