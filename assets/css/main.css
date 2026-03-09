@@ -4538,3 +4538,13 @@ body.is-mobile.landing #footer {
 	line-height: 1.3;
 	text-align: right;
 }
+
+.box {
+	border-radius: 6px;
+}
+
+.features .icon {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	color: #555;
+}
